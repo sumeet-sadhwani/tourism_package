@@ -1,7 +1,6 @@
 from huggingface_hub import HfApi
 import os
 
-from google.colab import userdata
 
 token=os.getenv("HF_TOKEN")   # please use your token
 

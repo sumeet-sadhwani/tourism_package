@@ -16,7 +16,6 @@ from huggingface_hub import login, HfApi, create_repo
 from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 import mlflow
 
-from google.colab import userdata
 
 
 mlflow.set_tracking_uri("http://localhost:5000")
